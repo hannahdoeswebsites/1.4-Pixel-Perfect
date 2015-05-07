@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: black;
+
+}
+
+header{
+  height: 522px;
+  max-width: 1300px;
+  background-image: url("../images/header.png");
+background-size: cover;
+  background-repeat: no-repeat;
+  z-index:0;
+
+}
+
+header::after {
+  position: absolute;
+  max-height: 522px;
+  max-width: 1300px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 112, 188, .75);
+  content: '';
+  z-index:2;
+}
+
+#search {
+position: absolute;
+height: 100px;
+width: 1300px;
+float: right;
+left: 979px;
+top: 8px;
+z-index: 4;
+color: rgba(0, 51, 82, 1);
+margin-left: 15px;
+font-family: 'Oswald', sans-serif;
+display: inline;
+letter-spacing: -.5px;
+font-size: 18px;
+}
+
+#blog {
+  position: absolute;
+  width: 1300;
+  height: 100px;
+  top: 4px;
+  left: 124px;
+  z-index: 4;
+  color: rgba(0, 51, 82, 1);
+  margin-left: 15px;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  letter-spacing: 1.5px;
+}
+
+#blog img {
+  border-radius: 50%;
+
+}
+.textmiddle {vertical-align:middle;}
+
+
+
+#search img {
+margin-top: 5px;
+}
+
+#surf {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 201px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 115px;
+  letter-spacing: -1.60px;
+  position: relative;
+  z-index:4;
+  width: 1300px;
+  height: 100px;
+}
+
+
+#tiyproject {
+  font-size: 12px;
+  color: rgba(0, 53, 86, 1);
+
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  height:15px;
+  width: 1300px;
+  margin-top: 12px;
+  left: 499px;
+  z-index: 4;
+  letter-spacing: 2.5px;
+
+}
