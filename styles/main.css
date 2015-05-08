@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: white;
 
 }
 
@@ -15,6 +15,7 @@ header{
   background-image: url("../images/header.png");
 background-size: cover;
   background-repeat: no-repeat;
+  position:absolute;
   z-index:0;
 
 }
@@ -78,10 +79,10 @@ margin-top: 5px;
   font-size: 100px;
   color: white;
   text-align: center;
-  padding-top: 201px;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 115px;
-  letter-spacing: -1.60px;
+  padding-top: 213px;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 105px;
+  letter-spacing: .5px;
   position: relative;
   z-index:4;
   width: 1300px;
@@ -90,16 +91,212 @@ margin-top: 5px;
 
 
 #tiyproject {
-  font-size: 12px;
+  font-size: 13px;
   color: rgba(0, 53, 86, 1);
 
   font-family: 'Oswald', sans-serif;
   position: absolute;
-  height:15px;
+  height:12px;
   width: 1300px;
-  margin-top: 12px;
+  margin-top: 0px;
   left: 499px;
   z-index: 4;
-  letter-spacing: 2.5px;
+  letter-spacing: 2.0px;
 
+}
+
+
+section {
+  padding-top:585px;
+  padding-left: 162px;
+  position: absolute;
+  min-width: 600px;
+  height: 0 auto;
+  margin-right: 80px;
+}
+
+
+H1 {
+  font-size: 82px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+  height: 192px;
+  max-width: 700px;
+  letter-spacing: -3px;
+  margin: 0 auto;
+  line-height: 70px;
+  color: rgba(0, 51, 83, 1);
+
+
+}
+
+#main {
+
+  position: absolute;
+  height: 0 auto;
+  max-width: 595px;
+padding-top: 13px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -.5px;
+  line-height: 26px;
+  color: rgba(92, 104, 112, 1);
+
+}
+
+
+
+.NameDate {
+  position: absolute;
+  max-width: 1300px;
+  height: 15px;
+  top: 730px;
+  color: rgba(0, 51, 82, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  display: inline-block;
+  letter-spacing: .7px;
+  padding-left: 5px;
+}
+
+#tinypic {
+  border-radius: 50%;
+}
+
+#radical {
+  border-left: 2px solid rgba(211, 211, 211, 1);
+  font-size: 30px;
+  max-height: 70px;
+  padding-left: 15px;
+  color: rgba(0, 105, 182, 1);
+  letter-spacing: -1.7px;
+margin-top:19px;
+  padding-top: 15px;
+  position: absolute;
+  width: 600px;
+  padding-bottom: 15px;
+  margin-left:9px;
+
+}
+
+.buttons {
+  display: inline-block;
+  float: left;
+  position: absolute;
+  max-height: 50px;
+  min-width: 600px;
+  top:1430px;
+  left:166px;
+
+}
+
+#button1 {
+  color:white;
+  background-color: rgba(160, 179, 192, 1);
+  height: 30px;
+  width:159px;
+  font-size:14px;
+  border: 0px;
+  text-align: center;
+  line-height: 30px;
+  margin-right:5px;
+}
+
+#icon1 {
+  background-color: rgba(92, 104, 112, 1);
+  color: white;
+  height: 30px;
+  width: 34px;
+  font-size: 15px;
+  text-align: center;
+  float: left;
+  line-height: 30px;
+
+}
+  #button2  {
+    color:white;
+    background-color: rgba(160, 179, 192, 1);
+    height: 30px;
+    width:129px;
+    font-size:14px;
+    border: 0px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 5px;
+  }
+
+  #icon2 {
+    background-color: rgba(92, 104, 112, 1);
+    color: white;
+    height: 30px;
+    width: 34px;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    line-height: 30px;
+}
+
+#button3  {
+  color:white;
+  background-color: rgba(0, 105, 182, 1);
+  height: 30px;
+  width:155px;
+  font-size:14px;
+  border: 0px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 5px;
+  letter-spacing: -.3px;
+}
+
+#icon3 {
+  background-color: rgba(0, 51, 83, 1);
+  color: white;
+  height: 30px;
+  width: 33px;
+  font-size: 14px;
+  text-align: center;
+  float: left;
+  line-height: 30px;
+
+}
+
+#sidebar {
+  min-width:300px;
+  max-width: 300px;
+  height: 0 auto;
+  position: absolute;
+  background: white;
+  color: white;
+  margin-top:605px;
+  margin-left: 860px;
+  text-align: left;
+  color: rgba(92, 104, 112, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-size:13px;
+  letter-spacing: 1px;
+}
+
+H3 {
+  color: rgba(0, 51, 83, 1);
+  line-height: 30px;
+  font-size: 18px;
+  letter-spacing: -1px;
+
+}
+
+#anne {
+  border-radius: 50%;
+display: block;
+margin-right: auto;
+margin-left: auto;
+  padding-bottom: 10px;
+
+}
+
+#name2 {
+  color: rgba(0, 51, 83, 1);
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: -1px;
+  line-height: 18px;
 }
