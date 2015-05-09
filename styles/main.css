@@ -113,6 +113,7 @@ section {
   min-width: 600px;
   height: 0 auto;
   margin-right: 80px;
+  float: left;
 }
 
 
@@ -260,43 +261,114 @@ margin-top:19px;
 
 }
 
-#sidebar {
+aside {
   min-width:300px;
   max-width: 300px;
   height: 0 auto;
   position: absolute;
   background: white;
   color: white;
+  float: right;
+  clear: both;
   margin-top:605px;
-  margin-left: 860px;
+  margin-left: 850px;
   text-align: left;
   color: rgba(92, 104, 112, 1);
   font-family: 'Open Sans', sans-serif;
   font-size:13px;
   letter-spacing: 1px;
+  z-index: 0;
 }
 
 H3 {
   color: rgba(0, 51, 83, 1);
   line-height: 30px;
   font-size: 18px;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+aside p {
+  padding-left: 15px;
+  letter-spacing: .4px;
+  line-height: 24px;
 
 }
 
 #anne {
-  border-radius: 50%;
+  border-radius: 20%;
 display: block;
-margin-right: auto;
-margin-left: auto;
+padding-left: 120px;
   padding-bottom: 10px;
 
 }
 
 #name2 {
   color: rgba(0, 51, 83, 1);
-  text-align: center;
-  font-size: 15px;
-  letter-spacing: -1px;
+
+  font-size: 18px;
+  letter-spacing: 1px;
   line-height: 18px;
+  padding-left: 110px;
+  padding-bottom: 6px;
+}
+
+#social {
+  color:rgba(160, 179, 192, 1);
+  font-size: 12px;
+  text-align: left;
+  padding-left: 60px;
+  padding-bottom: 47px;
+}
+
+#adimage {
+  text-align: right;
+  padding-bottom: 42px;
+}
+
+#adimage img {
+  max-height: 302px;
+  min-height: 302px;
+  max-width: 280px;
+  padding-bottom: 3px;
+  z-index: 0;
+}
+
+adimage::after {
+  position: absolute;
+  max-height: 302px;
+  max-width: 302px;
+  margin-top: 790px;
+  right: auto;
+  bottom: auto;
+  margin-left: 900px;
+  background: rgba(0, 112, 188, .75);
+  content: '';
+  z-index:2;
+}
+
+footer {
+  max-width: 1300px;
+  height: 752px;
+  position: absolute;
+  min-width: 1300px;
+  float: left;
+  clear: both;
+  margin-top:1526px;
+  text-align: center;
+  color: rgba(92, 104, 112, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-size:13px;
+  letter-spacing: 1px;
+  z-index: 0;
+  border-top: 1px solid blue;
+}
+
+footer h1 {
+  font-size: 82px;
+  text-align: center;
+  padding-top: 35px;
+  letter-spacing: -2.5px;
+
 }
