@@ -1,0 +1,508 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: white;
+
+}
+
+header{
+  height: 522px;
+  max-width: 1300px;
+  background-image: url("../images/header.png");
+background-size: cover;
+  background-repeat: no-repeat;
+  position:absolute;
+  z-index:0;
+
+}
+
+header::after {
+  position: absolute;
+  max-height: 522px;
+  max-width: 1300px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 112, 188, .75);
+  content: '';
+  z-index:2;
+}
+
+#search {
+position: absolute;
+height: 100px;
+width: 1300px;
+float: right;
+left: 979px;
+top: 8px;
+z-index: 4;
+color: rgba(0, 51, 82, 1);
+margin-left: 15px;
+font-family: 'Oswald', sans-serif;
+display: inline;
+letter-spacing: -.5px;
+font-size: 18px;
+}
+
+#blog {
+  position: absolute;
+  width: 1300;
+  height: 100px;
+  top: 4px;
+  left: 124px;
+  z-index: 4;
+  color: rgba(0, 51, 82, 1);
+  margin-left: 15px;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  letter-spacing: 1.5px;
+}
+
+#blog img {
+  border-radius: 50%;
+
+}
+.textmiddle {vertical-align:middle;}
+
+
+
+#search img {
+margin-top: 5px;
+}
+
+#surf {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 213px;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 105px;
+  letter-spacing: .5px;
+  position: relative;
+  z-index:4;
+  width: 1300px;
+  height: 100px;
+}
+
+
+#tiyproject {
+  font-size: 13px;
+  color: rgba(0, 53, 86, 1);
+
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  height:12px;
+  width: 1300px;
+  margin-top: 0px;
+  left: 499px;
+  z-index: 4;
+  letter-spacing: 2.0px;
+
+}
+
+
+section {
+  padding-top:585px;
+  padding-left: 162px;
+  position: absolute;
+  min-width: 600px;
+  height: 0 auto;
+  margin-right: 80px;
+  float: left;
+}
+
+
+#engaging {
+  font-size: 82px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+  height: 192px;
+  max-width: 700px;
+  letter-spacing: -3px;
+  margin: 0 auto;
+  line-height: 70px;
+  color: rgba(0, 51, 83, 1);
+
+
+}
+
+#main {
+
+  position: absolute;
+  height: 0 auto;
+  max-width: 595px;
+padding-top: 13px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -.5px;
+  line-height: 26px;
+  color: rgba(92, 104, 112, 1);
+
+}
+
+
+
+.NameDate {
+  position: absolute;
+  max-width: 1300px;
+  height: 15px;
+  top: 730px;
+  color: rgba(0, 51, 82, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  display: inline-block;
+  letter-spacing: .7px;
+  padding-left: 5px;
+}
+
+#tinypic {
+  border-radius: 50%;
+}
+
+#radical {
+  border-left: 2px solid rgba(211, 211, 211, 1);
+  font-size: 30px;
+  max-height: 70px;
+  padding-left: 15px;
+  color: rgba(0, 105, 182, 1);
+  letter-spacing: -1.7px;
+margin-top:19px;
+  padding-top: 15px;
+  position: absolute;
+  width: 600px;
+  padding-bottom: 15px;
+  margin-left:9px;
+
+}
+
+.buttons {
+  display: inline-block;
+  float: left;
+  position: absolute;
+  max-height: 50px;
+  min-width: 600px;
+  top:1430px;
+  left:166px;
+
+}
+
+#button1 {
+  color:white;
+  background-color: rgba(160, 179, 192, 1);
+  height: 30px;
+  width:159px;
+  font-size:14px;
+  border: 0px;
+  text-align: center;
+  line-height: 30px;
+  margin-right:5px;
+}
+
+#icon1 {
+  background-color: rgba(92, 104, 112, 1);
+  color: white;
+  height: 30px;
+  width: 34px;
+  font-size: 15px;
+  text-align: center;
+  float: left;
+  line-height: 30px;
+
+}
+  #button2  {
+    color:white;
+    background-color: rgba(160, 179, 192, 1);
+    height: 30px;
+    width:129px;
+    font-size:14px;
+    border: 0px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 5px;
+  }
+
+  #icon2 {
+    background-color: rgba(92, 104, 112, 1);
+    color: white;
+    height: 30px;
+    width: 34px;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    line-height: 30px;
+}
+
+#button3  {
+  color:white;
+  background-color: rgba(0, 105, 182, 1);
+  height: 30px;
+  width:155px;
+  font-size:14px;
+  border: 0px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 5px;
+  letter-spacing: -.3px;
+}
+
+#icon3 {
+  background-color: rgba(0, 51, 83, 1);
+  color: white;
+  height: 30px;
+  width: 33px;
+  font-size: 14px;
+  text-align: center;
+  float: left;
+  line-height: 30px;
+
+}
+
+aside {
+  min-width:300px;
+  max-width: 300px;
+  height: 0 auto;
+  position: absolute;
+  background: white;
+  color: white;
+  float: right;
+  clear: both;
+  margin-top:605px;
+  margin-left: 850px;
+  text-align: left;
+  color: rgba(92, 104, 112, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-size:13px;
+  letter-spacing: 1px;
+  z-index: 0;
+}
+
+H3 {
+  color: rgba(0, 51, 83, 1);
+  line-height: 30px;
+  font-size: 18px;
+  letter-spacing: -2px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+aside p {
+  padding-left: 15px;
+  letter-spacing: .4px;
+  line-height: 24px;
+
+}
+
+#anne {
+  border-radius: 20%;
+display: block;
+padding-left: 120px;
+  padding-bottom: 10px;
+
+}
+
+#name2 {
+  color: rgba(0, 51, 83, 1);
+
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  padding-left: 110px;
+  padding-bottom: 6px;
+}
+
+#social {
+  color:rgba(160, 179, 192, 1);
+  font-size: 12px;
+  text-align: left;
+  padding-left: 60px;
+  padding-bottom: 47px;
+}
+
+#adimage {
+  text-align: right;
+  padding-bottom: 42px;
+}
+
+#adimage img {
+  max-height: 302px;
+  min-height: 302px;
+  max-width: 280px;
+  padding-bottom: 3px;
+  z-index: 0;
+}
+
+adimage::after {
+  position: absolute;
+  max-height: 302px;
+  max-width: 302px;
+  margin-top: 790px;
+  right: auto;
+  bottom: auto;
+  margin-left: 900px;
+  background: rgba(0, 112, 188, .75);
+  content: '';
+  z-index:2;
+}
+
+footer {
+  max-width: 1300px;
+  height: 752px;
+  position: absolute;
+  min-width: 1300px;
+  float: left;
+  clear: both;
+  margin-top:1526px;
+  color: rgba(92, 104, 112, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-size:13px;
+  letter-spacing: 1px;
+  z-index: 0;
+  border-top: 1px solid blue;
+  display: inline-block;
+
+}
+
+footer h1 {
+  font-size: 82px;
+padding-top: 10px;
+  letter-spacing: -2.5px;
+padding-left: 365px;
+line-height: 18px;
+font-family: 'Open Sans Condensed', sans-serif;
+color: rgba(0, 51, 83, 1);
+padding-bottom: 9px;
+
+}
+
+
+
+#female
+{
+  height: 330px;
+  max-width: 500px;
+  min-width: 325px;
+  background-image: url("../images/female.png");
+background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  display: inline-block;
+  float: left;
+
+}
+
+#female h4 {
+  color: white;
+  font-size:26px;
+  padding-top: 290px;
+  z-index: 0
+  letter-spacing:3px;
+  padding-left: 15px;
+  line-height: 30px;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  float: left;
+  display: inline-block;
+  position: absolute;
+}
+
+#craftbeer {
+  height: 330px;
+  max-width: 500px;
+  min-width: 325px;
+  background-image: url("../images/craftbeer.jpg");
+background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  display: inline-block;
+  float: left;
+}
+
+#craftbeer h4 {
+  color: white;
+  font-size:26px;
+  padding-top: 290px;
+  z-index: 0
+  letter-spacing:3px;
+  padding-left: 15px;
+  line-height: 30px;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  float: left;
+  display: inline-block;
+  position: absolute;
+}
+
+#code {
+  height: 330px;
+  max-width: 500px;
+  min-width: 325px;
+  background-image: url("../images/ladieslearningcode.png");
+background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  float: left;
+  display: inline-block;
+}
+
+#code h4 {
+  color: rgba(0, 51, 82, 1);
+  font-size:26px;
+  padding-top: 265px;
+  z-index: 0
+  letter-spacing:4px;
+  padding-left: 15px;
+  line-height: 30px;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  float: left;
+  display: inline-block;
+  position: absolute;
+  max-width: 325px;
+
+}
+
+#liquor {
+
+  background-image: url("../images/liquor.png");
+  height: 330px;
+  max-width: 500px;
+  min-width: 325px;
+
+background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  float: left;
+  display: inline-block;
+}
+
+#liquor h4 {
+  color: white;
+  font-size:26px;
+  padding-top: 290px;
+  z-index: 0
+  letter-spacing:3px;
+  padding-left: 15px;
+  line-height: 30px;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  float: left;
+  display: inline-block;
+  position: absolute;
+}
+
+footer::after {
+  position: absolute;
+  max-height: 330px;
+  max-width: 1300px;
+  top: 147px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 112, 188, .75);
+  content: '';
+  z-index:2;
+}
