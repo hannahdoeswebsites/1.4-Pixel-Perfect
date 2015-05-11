@@ -117,7 +117,7 @@ section {
 }
 
 
-H1 {
+#engaging {
   font-size: 82px;
   font-family: 'Open Sans Condensed', sans-serif;
   position: relative;
@@ -356,19 +356,77 @@ footer {
   float: left;
   clear: both;
   margin-top:1526px;
-  text-align: center;
   color: rgba(92, 104, 112, 1);
   font-family: 'Open Sans', sans-serif;
   font-size:13px;
   letter-spacing: 1px;
   z-index: 0;
   border-top: 1px solid blue;
+  display: inline-block;
+
 }
 
 footer h1 {
   font-size: 82px;
-  text-align: center;
-  padding-top: 35px;
+padding-top: 10px;
   letter-spacing: -2.5px;
+padding-left: 365px;
+line-height: 18px;
+font-family: 'Open Sans Condensed', sans-serif;
+color: rgba(0, 51, 83, 1);
+padding-bottom: 9px;
 
+}
+
+
+
+#female
+{
+  height: 330px;
+  max-width: 325px;
+  background-image: url("../images/female.png");
+background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0
+display: inline-block;
+
+}
+
+#female h4 {
+  color: white;
+  font-size:26px;
+  padding-top: 290px;
+  z-index: 0
+  letter-spacing:3px;
+  padding-left: 15px;
+  line-height: 30px;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  float: left;
+  display: inline-block;
+  position: absolute;
+}
+
+#craftbeer {
+  height: 330px;
+  max-width: 500px;
+  min-width: 325px;
+  background-image: url("../images/craftbeer.jpg");
+background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  float: right;
+  display: inline-block;
+}
+
+#code {
+  background-image: url ("../images/ladieslearningcode.png");
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+#liquor {
+  background-image: url ("../images/liquor.png");
+  position: absolute;
+  background-repeat: no-repeat;
 }
