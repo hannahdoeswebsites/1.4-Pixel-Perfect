@@ -383,12 +383,14 @@ padding-bottom: 9px;
 #female
 {
   height: 330px;
-  max-width: 325px;
+  max-width: 500px;
+  min-width: 325px;
   background-image: url("../images/female.png");
 background-size: cover;
   background-repeat: no-repeat;
-  z-index: 0
-display: inline-block;
+  z-index: 0;
+  display: inline-block;
+  float: left;
 
 }
 
@@ -415,18 +417,92 @@ display: inline-block;
 background-size: cover;
   background-repeat: no-repeat;
   z-index: 0;
-  float: right;
   display: inline-block;
+  float: left;
+}
+
+#craftbeer h4 {
+  color: white;
+  font-size:26px;
+  padding-top: 290px;
+  z-index: 0
+  letter-spacing:3px;
+  padding-left: 15px;
+  line-height: 30px;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  float: left;
+  display: inline-block;
+  position: absolute;
 }
 
 #code {
-  background-image: url ("../images/ladieslearningcode.png");
-  position: absolute;
+  height: 330px;
+  max-width: 500px;
+  min-width: 325px;
+  background-image: url("../images/ladieslearningcode.png");
+background-size: cover;
   background-repeat: no-repeat;
+  z-index: 0;
+  float: left;
+  display: inline-block;
+}
+
+#code h4 {
+  color: rgba(0, 51, 82, 1);
+  font-size:26px;
+  padding-top: 265px;
+  z-index: 0
+  letter-spacing:4px;
+  padding-left: 15px;
+  line-height: 30px;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  float: left;
+  display: inline-block;
+  position: absolute;
+  max-width: 325px;
+
 }
 
 #liquor {
-  background-image: url ("../images/liquor.png");
-  position: absolute;
+
+  background-image: url("../images/liquor.png");
+  height: 330px;
+  max-width: 500px;
+  min-width: 325px;
+
+background-size: cover;
   background-repeat: no-repeat;
+  z-index: 0;
+  float: left;
+  display: inline-block;
+}
+
+#liquor h4 {
+  color: white;
+  font-size:26px;
+  padding-top: 290px;
+  z-index: 0
+  letter-spacing:3px;
+  padding-left: 15px;
+  line-height: 30px;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  float: left;
+  display: inline-block;
+  position: absolute;
+}
+
+footer::after {
+  position: absolute;
+  max-height: 330px;
+  max-width: 1300px;
+  top: 147px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 112, 188, .75);
+  content: '';
+  z-index:2;
 }
